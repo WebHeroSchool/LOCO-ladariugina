@@ -3,16 +3,17 @@ body {
 }
 
 .black {
-  position: absolute;
   height: 900px;
   width: 461px;
   background-color: black;
 }
 
 .white {
+  display: flex;
+  position: absolute;
+  left: 13%;
+  align-items: center;
   height: 900px;
-  padding-left: 186px;
-  margin-left: auto;
   z-index: 1;
 }
 
@@ -48,9 +49,18 @@ body {
   top: 6px;
 }
 
+.white__image {
+  width: 549px;
+  height: 562px;
+  background: no-repeat url(img/girl.jpg);
+}
+
 .white__text {
-  padding: 99px 163px 240px 603px;
-  background: top left no-repeat url(img/girl.jpg);
+  padding: 101px 0 64px 10px;
+  margin-left: 40px;
+  width: 488px;
+  height: 397px;
+  background: white;
 }
 
 .had__logo {
@@ -94,7 +104,7 @@ body {
 
 .white__text_subtitle {
   margin: 0;
-  padding-bottom: 55px;
+  padding-bottom: 53px;
   font: 400 15px/21px Montserrat, arial, helvetica, sans-serif;
 }
 
@@ -281,7 +291,6 @@ body {
   margin-right: 69px;
 }
 
-
 .footer {
   height: 900px;
   background-color: #ebe3d8;
@@ -379,4 +388,252 @@ body {
   width: 343px;
   position: absolute;
   margin: 39px 0 0 132px;
+}
+
+@media (max-width: 1300px) and (min-width: 1000px) {
+  .white {
+    left: 4%;
+  }
+
+  .white__image {
+    width: 450px;
+  }
+
+  .white__text {
+    margin-left: 0;
+  }
+
+  .card {
+    left: 50%;
+  }
+
+  .section__button-other {
+    left: 50%;
+  }
+
+  .footer__card {
+    left: 50%;
+  }
+
+  .bags {
+    background: 0 -70% no-repeat url(img/pink.png);
+    background-size: 60%;
+  }
+
+  .footer__look {
+    background-size: 57%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .white__text {
+    padding: 0;
+    left: 0;
+    width: 297px;
+    height: 103px;
+    background: transparent;
+    position: absolute;
+  }
+
+  .white__text_title {
+    font: 700 50px/51px Montserrat, arial, helvetica, sans-serif;
+  }
+
+  .white__text_subtitle {
+    display: none;
+  }
+  
+  .white__text_button {
+    display: none;
+  }
+
+  .white__btn {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0;
+  }
+
+  .white__image {
+    height: 100%;
+    position: static;
+    margin: 0 auto;
+  }
+
+  .had__ru {
+    display: none;
+  }
+
+  .had__logo {
+    color: black;
+    padding: 14px 193px 18px 26px;
+  }
+
+  .white {
+    height: 528px;
+    position: static;
+  }
+
+  .black {
+    height: 0;
+    width: 0;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .bags {
+    position: static;
+    background: no-repeat url(img/pink.png);
+    background-size: 100%;
+    margin-top: 0;
+    width: 224px;
+    height: 290px;
+  }
+
+  .section__button-other {
+    display: none;
+  }
+
+  .footer__look {
+    position: static;
+    width: 350px;
+    height: 272px;
+    background-size: 100%;
+    z-index: 1;
+  }
+
+  .section {
+    height: 596px;
+  }
+
+  .section__basic {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-top: 0px;
+    padding: 15px 29px 25px 29px;
+    left: 0;
+    width: 262px;
+    height: 241px;
+  }
+  
+  .card__title {
+    font: 700 20px/21px Montserrat, arial, helvetica, sans-serif;
+    margin: 0 0 1px;
+  }
+  
+  .card__subtitle {
+    font: 700 10px Montserrat, arial, helvetica, sans-serif;
+    margin: 0 0 16px;
+  }
+  
+  .card__text {
+    font: 400 9px/13px Montserrat, arial, helvetica, sans-serif;
+    margin: 0 0 9px;
+  }
+  
+  .card__value_price {
+    font: 700 20px/28px Montserrat, arial, helvetica, sans-serif;
+  }
+
+  .card__value {
+    margin-bottom: 41px;
+  }
+  
+  .card__value_color {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+  }
+  
+  .card__value_color-white {
+    margin-right: 9px;
+  }
+  
+  .card__value_color-pink {
+    width: 29px;
+    height: 29px;
+    margin-right: 9px;
+  }
+  
+  .card__value_color-blue {
+    margin-right: 9px;
+  }
+  
+  .card__value_color-green {
+    margin-right: 60px;
+  }
+
+  .card__button_quantity {
+    display: none;
+  }
+
+  .card__button_basket {
+    padding: 11px 33px;
+  }
+
+  .footer {
+    height: 597px;
+  }
+
+  .footer__basic {
+    height: 597px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__basic::before {
+    height: 597px;
+    width: 41px;
+    right: 60%;
+  }
+
+  .footer__card { 
+    margin-top: 0;
+    width: 260px;
+    height: 145px;
+    left: 0;
+  }
+
+  .footer__card-look {
+    padding: 22px 21px 28px 24px;
+    height: 145px;
+  }
+
+  .card-look__title {
+    font: 700 20px/21px Montserrat, arial, helvetica, sans-serif;
+    margin: 0 0 1px;
+  }
+  
+  .card-look__subtitle {
+    font: 700 10px Montserrat, arial, helvetica, sans-serif;
+    margin: 0 0 11px;
+  }
+  
+  .card-look__text {
+    font: 400 9px/13px Montserrat, arial, helvetica, sans-serif;
+    margin: 0 0 31px;
+  }
+
+  .card-look__button_quantity {
+    display: none;
+  }
+
+  .card-look__button_basket {
+    padding: 11px 24px;
+  }
+
+  .footer__card_button-other {
+    font: 500 15px/18px Montserrat, arial, helvetica, sans-serif;
+    width: 100px;
+    height: 120px;
+    margin-top: 10px;
+  }
 }
