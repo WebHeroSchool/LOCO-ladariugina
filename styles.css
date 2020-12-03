@@ -166,6 +166,16 @@ body {
   z-index: 1;
 }
 
+.scroll {
+  background: no-repeat url(img/scroll.svg);
+  width: 27px;
+  height: 46px;
+  position: absolute;
+  left: 49%;
+  top: 815px;
+  z-index: 2;
+}
+
 .section {
   height: 900px;
   background-color: #fae8e4;
@@ -431,12 +441,14 @@ body {
   }
 
   .white__text {
-    padding: 0;
+    padding: 359px 0 69px;
     left: 0;
-    width: 297px;
+    width: 100%;
     height: 103px;
-    background: transparent;
-    position: absolute;
+    background: no-repeat url(img/girl.jpg);
+    background-position: center;
+    margin: auto;
+    text-align: center;
   }
 
   .white__text_title {
@@ -458,9 +470,7 @@ body {
   }
 
   .white__image {
-    height: 100%;
-    position: static;
-    margin: 0 auto;
+    display: none;
   }
 
   .had__ru {
@@ -486,6 +496,14 @@ body {
     display: none;
   }
 
+  .scroll {
+    background: no-repeat url(img/swipe.svg);
+    width: 38px;
+    top: 561px;
+    left: 46%;
+    z-index: 2;
+  }
+
   .bags {
     position: static;
     background: no-repeat url(img/pink.png);
@@ -497,14 +515,6 @@ body {
 
   .section__button-other {
     display: none;
-  }
-
-  .footer__look {
-    position: static;
-    width: 350px;
-    height: 272px;
-    background-size: 100%;
-    z-index: 1;
   }
 
   .section {
@@ -602,9 +612,21 @@ body {
     left: 0;
   }
 
+  .footer__look {
+    position: static;
+    width: 350px;
+    height: 272px;
+    background-size: 100%;
+    z-index: 1;
+    margin-top: 34px;
+  }
+
   .footer__card-look {
     padding: 22px 21px 28px 24px;
     height: 145px;
+    bottom: 20%;
+    position: relative;
+    z-index: 1;
   }
 
   .card-look__title {
@@ -632,8 +654,10 @@ body {
 
   .footer__card_button-other {
     font: 500 15px/18px Montserrat, arial, helvetica, sans-serif;
-    width: 100px;
+    width: 130px;
     height: 120px;
-    margin-top: 10px;
+    top: 130%;
+    margin-top: 0;
+    background-position: left;
   }
 }
