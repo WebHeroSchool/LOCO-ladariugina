@@ -212,14 +212,14 @@ body {
 
 .card__subtitle {
   font: 700 16px Montserrat, arial, helvetica, sans-serif;
-  opacity: .5;
+  opacity: 0.5;
   margin: 0 0 64px;
   letter-spacing: 0.07em;
 }
 
 .card__text {
   font: 400 15px/21px Montserrat, arial, helvetica, sans-serif;
-  opacity: .5;
+  opacity: 0.5;
   margin: 0 0 38px;
 }
 
@@ -341,7 +341,7 @@ body {
   padding: 35px 53px 45px 45px;
   height: 272px;
   background: #fae8e4;
-  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .card-look__title {
@@ -533,7 +533,7 @@ body {
     width: 262px;
     height: 241px;
   }
-  
+
   .card__title {
     font: 700 20px/21px Montserrat, arial, helvetica, sans-serif;
     margin: 0 0 1px;
