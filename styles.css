@@ -202,7 +202,7 @@ body {
   width: 368px;
   height: 472px;
   background: #fff;
-  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .card__title {
@@ -458,7 +458,7 @@ body {
   .main__text_subtitle {
     display: none;
   }
-  
+
   .main__text_button {
     display: none;
   }
@@ -527,7 +527,7 @@ body {
   }
 
   .card {
-    margin-top: 0px;
+    margin-top: 0;
     padding: 15px 29px 25px 29px;
     left: 0;
     width: 262px;
@@ -605,7 +605,7 @@ body {
     right: 62%;
   }
 
-  .footer__card { 
+  .footer__card {
     margin-top: 0;
     width: 305px;
     height: 195px;
