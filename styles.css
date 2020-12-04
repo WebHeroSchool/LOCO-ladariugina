@@ -351,14 +351,14 @@ body {
 
 .card-look__subtitle {
   font: 700 16px Montserrat, arial, helvetica, sans-serif;
-  opacity: .5;
+  opacity: 0.5;
   margin: 0 0 35px;
   letter-spacing: 0.07em;
 }
 
 .card-look__text {
   font: 400 15px/21px Montserrat, arial, helvetica, sans-serif;
-  opacity: .5;
+  opacity: 0.5;
   margin: 0 0 66px;
 }
 
@@ -538,17 +538,17 @@ body {
     font: 700 20px/21px Montserrat, arial, helvetica, sans-serif;
     margin: 0 0 1px;
   }
-  
+
   .card__subtitle {
     font: 700 10px Montserrat, arial, helvetica, sans-serif;
     margin: 0 0 12px;
   }
-  
+
   .card__text {
     font: 400 9px/13px Montserrat, arial, helvetica, sans-serif;
     margin: 0 0 4px;
   }
-  
+
   .card__value_price {
     font: 700 20px/28px Montserrat, arial, helvetica, sans-serif;
   }
@@ -556,27 +556,27 @@ body {
   .card__value {
     margin-bottom: 40px;
   }
-  
+
   .card__value_color {
     width: 23px;
     height: 23px;
     border-radius: 50%;
   }
-  
+
   .card__value_color-white {
     margin-right: 9px;
   }
-  
+
   .card__value_color-pink {
     width: 29px;
     height: 29px;
     margin-right: 9px;
   }
-  
+
   .card__value_color-blue {
     margin-right: 9px;
   }
-  
+
   .card__value_color-green {
     margin-right: 60px;
   }
@@ -634,12 +634,12 @@ body {
     font: 700 20px/21px Montserrat, arial, helvetica, sans-serif;
     margin: 0 0 4px;
   }
-  
+
   .card-look__subtitle {
     font: 700 10px Montserrat, arial, helvetica, sans-serif;
     margin: 0 0 9px;
   }
-  
+
   .card-look__text {
     font: 400 9px/13px Montserrat, arial, helvetica, sans-serif;
     margin: 0 0 31px;
