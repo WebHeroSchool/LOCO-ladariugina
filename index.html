@@ -1,28 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf 8">
+  <meta charset="utf-8">
   <title>LOCO</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header class="header">
-    <div class="white">
-      <input id="white__toggle" type="checkbox"/>
-      <label class="white__btn" for="white__toggle">
-        <span></span>
-    </label>
-      <div class="white__text">
-        <p class="white__text_title">Новая коллекция</p>
-        <p class="white__text_subtitle">Бесплатная доставка включена. Предложение действует<br>на сайте loco.com и в магазинах до 18.09.2018. Для<br>получения скидки в магазинах предъявите скриншот<br>данного предложения. В магазинах предложение не<br>суммируется с другими акциями, предложениями и<br>распродажей.</p>
-        <div class="white__text_button">
-          <a class="white__text_button-read" href="#">ЧИТАТЬ ДАЛЬШЕ</a>
-          <a class="white__text_button-others" href="#">ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
-        </div>
-      </div>
-    </div>
-    <div class="black">
+    <div class="menu">
       <div class="had">
         <span class="had__logo">LOCO</span>
         <input id="had__toggle" type="checkbox"/>
@@ -30,16 +17,32 @@
          <span>RU</span>
        </label> 
       </div>
-      <div class="social">
-        <a class="social__inst" href="#"></a>
-        <a class="social__vk" href="#"></a>
-        <a class="social__fb" href="#"></a>
+      <div class="link">
+        <a class="link__inst" href="#"></a>
+        <a class="link__vk" href="#"></a>
+        <a class="link__fb" href="#"></a>
+      </div>
+    </div>
+    <div class=scroll></div>
+    <input id="toggle" type="checkbox"/>
+    <label class="btn" for="toggle">
+      <span></span>
+    </label>
+    <div class="main">
+      <div class="main__image"></div>
+      <div class="main__text">
+        <p class="main__text_title">Новая<br>коллекция</p>
+        <p class="main__text_subtitle">Бесплатная доставка включена. Предложение действует<br>на сайте loco.com и в магазинах до 18.09.2018. Для<br>получения скидки в магазинах предъявите скриншот<br>данного предложения. В магазинах предложение не<br>суммируется с другими акциями, предложениями и<br>распродажей.</p>
+        <div class="main__text_button">
+          <a class="main__text_button-read" href="#">ЧИТАТЬ ДАЛЬШЕ</a>
+          <a class="main__text_button-others" href="#">ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
+        </div>
       </div>
     </div>
   </header>
   <section class="section">
     <div class="section__basic">
-      <div class="bags"></div>
+      <div class="section__basic_image"></div>
       <div class="card">
         <p class="card__title">Кожаный клатч</p>
         <p class="card__subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
